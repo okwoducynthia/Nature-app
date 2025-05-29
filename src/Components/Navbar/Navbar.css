@@ -1,0 +1,47 @@
+.navbar-section-div {
+  background-color: transparent;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.navlinks-div {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 55px;
+}
+.navlinks-div li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.navlinks-div li button {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 15px 37px 15px 37px;
+  border-radius: 6px;
+  color: white;
+}
+.scroll-bar-icon {
+  font-size: 40px;
+  color: white;
+  display: none;
+}
+
+@media (max-width: 834px) {
+  .navlinks-div {
+    display: none;
+  }
+  .scroll-bar-icon {
+    display: block;
+  }
+}
+
