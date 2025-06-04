@@ -1,0 +1,183 @@
+/* ====NAVBAR SECTION==== */
+.navbar-section-div {
+  background-color: transparent;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.navlinks-div {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 55px;
+}
+.navlinks-div li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.navlinks-div li button {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 15px 37px 15px 37px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+}
+.scroll-bar-icon {
+  font-size: 40px;
+  color: white;
+  display: none;
+}
+/* ===NAVBAR ENDS HERE==== */
+
+/* ==HERO SECTION STARTS HERE== */
+.Hero-services {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.295)),
+    url("./images/ales-krivec-N-aTikX-b00-unsplash.jpg");
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-content: center;
+  justify-items: center;
+  color: white;
+}
+
+.Hero-services div h1 {
+  font-size: 50px;
+  font-family: var(--dm-sans-font-family);
+  font-weight: 500;
+}
+/* ==HERO SECTION ENDS HERE== */
+
+/* =====IMAGE SECTION STARTS HERE===== */
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+.image-container div {
+  width: 40%;
+}
+.service-image {
+  text-align: center;
+}
+.service-image img {
+  width: 65%;
+}
+.image-description h2 {
+  font-size: 32px;
+  font-family: var(--forum-font-family);
+  font-weight: 500;
+  color: var(--light-grey-color);
+  margin-bottom: 20px;
+}
+.image-description p {
+  font-size: 17px;
+  color: var(--light-gray-color2);
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+.image-description h3 {
+  font-size: 25px;
+  font-family: var(--dm-sans-font-family);
+  color: var(--light-grey-color);
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.image-description button {
+  background-color: transparent;
+  border: 1px solid var(--light-grey-color);
+  padding: 15px 37px 15px 37px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: var(--light-grey-color);
+}
+/* =====IMAGE SECTION ENDS HERE===== */
+
+/* ==FOOTER SECTION STARTS HERE==  */
+.footer-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  height: 17vh;
+  margin-top: 40px;
+}
+.footer-section div {
+  width: 20%;
+  text-align: center;
+}
+.navlink-footer {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.navlink-footer li a {
+  font-family: var(--dm-sans-font-family);
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--light-grey-color);
+}
+.footer-section div img {
+  width: 60px;
+}
+.footer-section div p {
+  font-family: var(--dm-sans-font-family);
+  font-size: 16px;
+  color: var(--light-grey-color);
+}
+/* =====FOOTER SECTION ENDS HERE====== */
+
+/* =====MEDIA QUERY STARTS HERE======== */
+@media (max-width: 1224px) {
+}
+
+@media (max-width: 834px) {
+  .navlinks-div {
+    display: none;
+  }
+  .scroll-bar-icon {
+    display: block;
+  }
+  .image-container {
+    flex-direction: column;
+  }
+  .image-container div {
+    width: 80%;
+  }
+  .service-image img {
+    width: 90%;
+    height: 70vh;
+  }
+  .footer-section {
+    flex-direction: column;
+    height: 55vh;
+  }
+  .footer-section div {
+    width: 90%;
+  }
+  .navlink-footer {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-image img {
+    height: 100%;
+  }
+  .footer-section {
+    height: 100%;
+  }
+}

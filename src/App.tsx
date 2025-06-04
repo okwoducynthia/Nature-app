@@ -1,14 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import Navbar from './Components/Navbar/Navbar'
-import Hero from './Components/Hero/Hero'
-import Images from './Components/Images-section/Images'
-import Quote from './Components/Quote/Quote'
-import About from './Components/About-us/About'
-import Question from './Components/Question/Question'
-import Footer from './Components/Footer/Footer'
+import HomePage from './Pages/HomePage/HomePage'
+import AboutPage from './Pages/AboutPage/AboutPage'
+import ServicePage from './Pages/ServicePage/ServicePage'
+import ContactPage from './Pages/ContactPage/ContactPage'
 
 
 function App() {
@@ -17,13 +12,12 @@ function App() {
   return (
     <>
       <div>
-        <Navbar/>
-        <Hero/>
-        <Images/>
-        <Quote/>
-        <About/>
-        <Question/>
-        <Footer/>
+        <Routes>
+          <Route path='/' element={<HomePage/>}/>
+          <Route path='/about' element={<AboutPage/>}/>
+          <Route path='/services' element={<ServicePage/>}/>
+          <Route path='/contact' element={<ContactPage/>}/>
+        </Routes>
       </div>
     </>
   )

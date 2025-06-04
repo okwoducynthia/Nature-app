@@ -1,0 +1,236 @@
+/* ====NAVBAR SECTION==== */
+.navbar-section-div {
+  background-color: transparent;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.navlinks-div {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 55px;
+}
+.navlinks-div li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.navlinks-div li button {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 15px 37px 15px 37px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+}
+.scroll-bar-icon {
+  font-size: 40px;
+  color: white;
+  display: none;
+}
+/* ===NAVBAR ENDS HERE==== */
+
+/* ==HERO SECTION STARTS HERE== */
+.Hero-contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.295)),
+    url(images/contact-hero-1.jpg);
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-content: center;
+  justify-items: center;
+  color: white;
+}
+
+.Hero-contact div h1 {
+  font-size: 50px;
+  font-family: var(--dm-sans-font-family);
+  font-weight: 500;
+}
+/* ==HERO SECTION ENDS HERE== */
+
+/* ====CONTACT DETAILS SECTION STARTS HERE==== */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
+  padding-bottom: 80px
+}
+.contact-container div {
+  width: 40%;
+}
+.contact-details h2{
+  font-size: 35px;
+  font-family: var(--forum-font-family);
+  color: var(--light-grey-color);
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.contact-details h3 {
+  font-size: 14px;
+  font-family: var(--dm-sans-font-family);
+  color: var(--light-grey-color);
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.contact-details p {
+  font-size: 18px;
+  font-family: var(--dm-sans-font-family);
+  color: var(--light-grey-color);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.contact-details span {
+  font-size: 30px;
+  color: var(--light-grey-color);
+  margin-right: 20px;
+  cursor: pointer;
+}
+.contact-input h2{
+  font-size: 35px;
+  font-family: var(--forum-font-family);
+  color: var(--light-grey-color);
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.contact-input div input {
+  height: 16vh;
+  width: 200%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.185);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.contact-input button {
+  font-family: var(--font-family);
+  font-size: 14px;
+  border-style: none;
+  background-color: rgb(255, 217, 54);
+  color: rgb(83, 105, 66);
+  padding: 15px 40px 15px 40px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+  margin-top: 40px;
+}
+.contact-input button:hover {
+  background-color: rgb(233, 166, 41);
+}
+ /* ====CONTACT DETAILS SECTION ENDS HERE==== */
+
+ /* ====TEAM SECTION STARTS HERE==== */
+ .team-container {
+  background-color: var(--background-color2);
+  padding-top: 70px;
+  padding-bottom: 70px;
+ }
+ .team-container h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: var(--forum-font-family);
+  color: var(--light-grey-color);
+  font-weight: 400;
+  margin-bottom: 20px;
+ }
+ .team-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .team-images img {
+  width: 90%;
+ }
+ /* ====TEAM SECTION ENDS HERE==== */
+
+ /* =====FOOTER SECTION STARTS HERE======== */
+.footer-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  height: 17vh;
+}
+.footer-section div {
+  width: 20%;
+  text-align: center;
+}
+.navlink-footer {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.navlink-footer li a {
+  font-family: var(--dm-sans-font-family);
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--light-grey-color);
+}
+.footer-section div img {
+  width: 60px;
+}
+.footer-section div p {
+  font-family: var(--dm-sans-font-family);
+  font-size: 16px;
+  color: var(--light-grey-color);
+}
+/* ======FOOTER SECTION ENDS HERE======== */
+
+/* =====MEDIA QUERY STARTS HERE======== */
+@media (max-width: 1224px) {
+
+}
+
+@media (max-width: 834px) {
+  .navlinks-div {
+    display: none;
+  }
+  .scroll-bar-icon {
+    display: block;
+  }
+  .contact-container {
+    flex-direction: column;
+  }
+  .contact-container div {
+    width: 60%;
+  }
+  .contact-details {
+    margin-bottom: 50px;
+  }
+  .team-images {
+    flex-direction: column;
+  }
+  .team-container h1 {
+    font-size: 30px;
+  }
+  .footer-section {
+    flex-direction: column;
+    height: 55vh;
+  }
+  .footer-section div {
+    width: 90%;
+  }
+  .navlink-footer {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .team-container h1 {
+    font-size: 25px;
+  }
+  .footer-section {
+    height: 100%;
+  }
+}

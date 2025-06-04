@@ -1,0 +1,224 @@
+/* ====NAVBAR SECTION==== */
+.navbar-section-div {
+  background-color: transparent;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.navlinks-div {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 55px;
+}
+.navlinks-div li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.navlinks-div li button {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 15px 37px 15px 37px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+}
+.scroll-bar-icon {
+  font-size: 40px;
+  color: white;
+  display: none;
+}
+/* ===NAVBAR ENDS HERE==== */
+
+/* ==HERO SECTION STARTS HERE== */
+.Hero-about-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.295)),
+    url("./images/header-hero-1.jpg");
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-content: center;
+  justify-items: center;
+  color: white;
+}
+
+.Hero-about-section div h1 {
+  font-size: 50px;
+  font-family: var(--dm-sans-font-family);
+  font-weight: 500;
+}
+/* ==HERO SECTION ENDS HERE== */
+
+/* ==TEAM SECTION STARTS HERE== */
+.team-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+}
+.team-heading h2 {
+  width: 55%;
+  text-align: center;
+  font-size: 35px;
+  font-family: var(--forum-font-family);
+  color: var(--light-grey-color);
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+.team-heading img {
+  width: 78%;
+  margin-bottom: 50px;
+}
+.team-paragraph {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.team-paragraph div {
+  width: 30%;
+}
+.team-paragraph div h3 {
+  font-size: 22px;
+  font-family: var(--dm-sans-font-family);
+  color: var(--light-grey-color);
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.team-paragraph div p {
+  font-size: 16px;
+  font-family: var(--dm-sans-font-family);
+  color: var(--light-gray-color2);
+  margin-bottom: 50px;
+}
+/* ==TEAM SECTION ENDS HERE== */
+
+/* ==QUOTE SECTION STARTS HERE== */
+.quote-section {
+  background-color: var(--background-color2);
+  align-content: center;
+  text-align: center;
+  justify-items: center;
+  height: 65vh;
+}
+.quote-section-image img {
+  width: 100%;
+}
+.quote-section-image {
+  margin: auto;
+  opacity: 0.3;
+  width: 35px;
+}
+.quote-section h2 {
+  color: var(--light-grey-color);
+  font-size: xx-large;
+  font-family: var(--forum-font-family);
+  font-weight: lighter;
+  margin-bottom: 30px;
+  width: 50%;
+}
+.avatar-img img {
+  width: 100%;
+}
+.avatar-img {
+  width: 50px;
+  height: 50px;
+}
+.quote-section p {
+  color: var(--light-grey-color);
+  padding-top: 12px;
+}
+/* ==QUOTE SECTION ENDS HERE== */
+
+/* ==FOOTER SECTION STARTS HERE==  */
+.footer-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  height: 17vh;
+}
+.footer-section div {
+  width: 20%;
+  text-align: center;
+}
+.navlink-footer {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.navlink-footer li a {
+  font-family: var(--dm-sans-font-family);
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--light-grey-color);
+}
+.footer-section div img {
+  width: 60px;
+}
+.footer-section div p {
+  font-family: var(--dm-sans-font-family);
+  font-size: 16px;
+  color: var(--light-grey-color);
+}
+/* =====FOOTER SECTION ENDS HERE====== */
+
+
+/* =====MEDIA QUERY STARTS HERE======== */
+@media (max-width: 1224px) {
+
+}
+
+@media (max-width: 834px) {
+  .navlinks-div {
+    display: none;
+  }
+  .scroll-bar-icon {
+    display: block;
+  }
+  .team-heading h2 {
+    width: 80%;
+    font-size: 25px;
+  }
+  .team-paragraph {
+    flex-direction: column;
+  }
+  .team-paragraph div {
+    width: 80%;
+  }
+  .quote-section h2 {
+    font-size: 25px;
+    width: 80%;
+  }
+  .footer-section {
+    flex-direction: column;
+    height: 55vh;
+  }
+  .footer-section div {
+    width: 90%;
+  }
+  .navlink-footer {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .quote-section {
+    height: 50vh;
+  }
+  .footer-section {
+    height: 100%;
+  }
+}
