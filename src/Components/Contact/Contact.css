@@ -227,6 +227,9 @@
 }
 
 @media (max-width: 480px) {
+  .navbar-section-div div img {
+    width: 80%;
+  }
   .team-container h1 {
     font-size: 25px;
   }

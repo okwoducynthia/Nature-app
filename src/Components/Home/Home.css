@@ -390,6 +390,9 @@
 }
 
 @media (max-width: 480px) {
+  .navbar-section-div div img {
+    width: 80%;
+  }
   .hero-section {
     height: 70vh;
   }

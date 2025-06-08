@@ -215,6 +215,9 @@
 }
 
 @media (max-width: 480px) {
+  .navbar-section-div div img {
+    width: 80%;
+  }
   .quote-section {
     height: 50vh;
   }
