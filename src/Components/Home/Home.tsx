@@ -101,7 +101,7 @@ const Home = () => {
         <button>Find out more</button>
         </div>
         
-        <div>
+        <div className="about-us-image">
           <img src="./images/leaf.jpg" alt=""/>
         </div>
       </div>

@@ -33,7 +33,8 @@
   color: white;
 }
 .scroll-bar-icon {
-  font-size: 40px;
+  font-size: 25px;
+  color: white;
   display: none;
 }
 /* ===NAVBAR ENDS HERE==== */
@@ -176,12 +177,13 @@
 .about-us-section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
 }
 
 .about-us-section div {
   width: 30%;
-  margin: 70px 100px;
 }
 
 .about-us-heading {
@@ -223,7 +225,7 @@
   border: 1px solid rgb(159, 206, 0);
 }
 
-.about-us-section div img {
+.about-us-image img {
   width: 100%;
   height: 100%;
 }
@@ -308,24 +310,11 @@
 
 /* =====MEDIA QUERY STARTS HERE======== */
 @media (max-width: 1224px) {
-  .images-section div {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 33%;
-  }
   .images-section div img {
-    width: 80%;
-    height: 80vh;
-  }
-  .about-us-section {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    width: 90%;
   }
   .about-us-section div {
-    width: 45%;
-    margin: 70px 0;
+    width: 35%;
   }
   .about-us-description h1 {
     font-size: 32px;
@@ -338,17 +327,15 @@
   }
   .scroll-bar-icon {
     display: block;
-    color: white;
   }
   .images-section {
-    margin-bottom: -70px;
+    flex-direction: column;
   }
   .images-section div {
-    flex-direction: column;
-    width: 90%;
+    width: 60%;
   }
   .images-section div img {
-    width: 80%;
+    width: 100%;
   }
   .heading-description {
     margin-bottom: 50px;
@@ -360,12 +347,14 @@
     font-size: 25px;
     width: 80%;
   }
-  .about-us-section div {
-    width: 100%;
-    margin: 70px 20px;
-    height: 13vh;
+  .about-us-section {
+    height: 100%;
   }
-  .about-us-section div img {
+  .about-us-section div {
+    width: 90%;
+    padding: 30px 0;
+  }
+  .about-us-image {
     display: none;
   }
   .about-us-description h1 {
@@ -391,14 +380,17 @@
   .hero-section {
     height: 500px;
   }
+  .hero-section h3 {
+    font-size: 30px;
+  }
   .hero-section h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
   .hero-section p {
     width: 50%;
   }
-  .images-section div img {
-    height: 50vh;
+  .heading-description {
+    width: 100%;
   }
   .quote-section {
     height: 100%;
@@ -408,22 +400,14 @@
     font-size: 22px;
     line-height: 35px;
   }
-  .about-us-section {
-    padding-bottom: 60px;
-  }
   .about-us-section div img {
     display: none;
-  }
-  .about-us-section div {
-    width: 100%;
-    margin: 60px 30px;
   }
   .about-us-description h1 {
     font-size: 30px;
   }
   .question-section {
-    height: 65vh;
-    margin-top: 14px;
+    height: 45vh;
   }
   .question-div p {
     max-width: 80%;
