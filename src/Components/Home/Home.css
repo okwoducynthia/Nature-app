@@ -374,8 +374,8 @@
 }
 
 @media (max-width: 480px) {
-  .navbar-section-div div img {
-    width: 40%;
+  .navlinks-div {
+
   }
   .hero-section {
     height: 500px;
@@ -391,6 +391,9 @@
   }
   .heading-description {
     width: 100%;
+  }
+  .images-section div {
+    width: 80%;
   }
   .quote-section {
     height: 100%;
