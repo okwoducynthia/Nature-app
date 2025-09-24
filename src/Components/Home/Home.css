@@ -194,11 +194,6 @@
   color: rgb(159, 206, 0);
   border: 1px solid rgb(159, 206, 0);
 }
-
-.about-us-image img {
-  width: 100%;
-  height: 100%;
-}
 /* =======ABOUT US SECTION ENDS HERE========= */
 
 /* =======QUESTION SECTION STARTS HERE========= */
@@ -270,6 +265,7 @@
 }
 .footer-section div img {
   width: 60px;
+  margin: auto
 }
 .footer-section div p {
   font-family: var(--dm-sans-font-family);
@@ -316,13 +312,11 @@
   }
   .about-us-section {
     height: 100%;
+    padding: 20px 0;
+    flex-direction: column;
   }
   .about-us-section div {
-    width: 90%;
-    padding: 30px 0;
-  }
-  .about-us-image {
-    display: none;
+    width: 100%;
   }
   .about-us-description h1 {
     font-size: 30px;
@@ -363,8 +357,8 @@
     font-size: 22px;
     line-height: 35px;
   }
-  .about-us-section div img {
-    display: none;
+  .about-us-section div {
+    width: 100%;
   }
   .about-us-description h1 {
     font-size: 30px;
