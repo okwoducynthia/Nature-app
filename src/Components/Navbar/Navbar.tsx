@@ -54,7 +54,7 @@ const Navbar = () => {
           <li><button>202-555-0188</button></li>
         </ul>
         <div className="scroll-bar-icon">
-          <i className="fa fa-bars" aria-hidden="true"></i>
+          <i className="fa fa-bars" aria-hidden="true" onClick={toggleSidebar}></i>
         </div>
       </div>
     </nav>

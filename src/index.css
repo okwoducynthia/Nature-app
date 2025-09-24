@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 * {
   margin: 0;
   padding: 0;
@@ -16,4 +18,11 @@
 
 a {
   text-decoration: none;
+}
+
+.active {
+ background-color: #536942;
+  color: white;
+  padding: 7px;
+  border-radius: 5px;
 }

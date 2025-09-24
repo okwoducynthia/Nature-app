@@ -33,7 +33,7 @@
   color: white;
 }
 .scroll-bar-icon {
-  font-size: 25px;
+  font-size: 35px;
   color: white;
   display: none;
 }
@@ -59,84 +59,11 @@
   .scroll-bar-icon {
     display: block;
   }
-  .images-section {
-    flex-direction: column;
-  }
-  .images-section div {
-    width: 60%;
-  }
-  .images-section div img {
-    width: 100%;
-  }
-  .heading-description {
-    margin-bottom: 50px;
-  }
-  .quote-section h2 {
-    font-size: 25px;
-    width: 80%;
-  }
-  .about-us-section {
-    height: 100%;
-  }
-  .about-us-section div {
-    width: 90%;
-    padding: 30px 0;
-  }
-  .about-us-image {
-    display: none;
-  }
-  .about-us-description h1 {
-    font-size: 30px;
-  }
-  .footer-section {
-    flex-direction: column;
-    height: 55vh;
-  }
-  .footer-section div {
-    width: 90%;
-  }
-  .navlink-footer {
-    flex-direction: column;
-    gap: 10px;
-  }
 }
 
 @media (max-width: 480px) {
-  .hero-section {
-    height: 500px;
+  .navbar-section-div div img {
+    width: 70%;
   }
-  .hero-section h3 {
-    font-size: 30px;
-  }
-  .hero-section h1 {
-    font-size: 40px;
-  }
-  .hero-section p {
-    width: 50%;
-  }
-  .heading-description {
-    width: 100%;
-  }
-  .images-section div {
-    width: 80%;
-  } 
-  .quote-section h2 {
-    font-size: 22px;
-    line-height: 35px;
-  }
-  .about-us-section div img {
-    display: none;
-  }
-  .about-us-description h1 {
-    font-size: 30px;
-  }
-  .question-section {
-    height: 50vh;
-  }
-  .question-div p {
-    max-width: 80%;
-  }
-  .footer-section {
-    height: 100%;
-  }
+
 }
