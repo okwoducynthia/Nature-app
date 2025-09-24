@@ -4,28 +4,6 @@ import { NavLink } from 'react-router-dom'
 const Home = () => {
   return (
     <div>
-         {/* ====NAVBAR SECTION STARTS HERE====  */}
-   <header>
-    <nav className="navbar-section-div">
-      <div>
-        <img src="./images/logo-white.png" alt="logo image"/>
-      </div>
-      <div>
-        <ul className="navlinks-div">
-          <NavLink to={'/'}><li><a href="#">Home</a></li></NavLink>
-          <NavLink to={'/about'}><li><a href="#">About</a></li></NavLink>
-          <NavLink to={'/services'}><li><a href="#">Services</a></li></NavLink>
-          <NavLink to={'/contact'}><li><a href="#">Contact</a></li></NavLink>
-          <li><button>202-555-0188</button></li>
-        </ul>
-        <div className="scroll-bar-icon">
-          <i className="fa fa-bars" aria-hidden="true"></i>
-        </div>
-      </div>
-    </nav>
-  </header>
-     {/* ====NAV BAR ENDS HERE=====  */}
-
   <main>
      {/* ====HERO SECTION START HERE====  */}
     <section className="hero-section">

@@ -1,48 +1,8 @@
-/* ====NAVBAR SECTION==== */
-.navbar-section-div {
-  background-color: transparent;
-  height: 20vh;
-  display: flex;
-  justify-content: space-between;
-  padding: 50px;
-  align-items: center;
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  bottom: 0px;
-}
-
-.navlinks-div {
-  display: flex;
-  list-style: none;
-  align-items: center;
-  gap: 55px;
-}
-.navlinks-div li a {
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-}
-.navlinks-div li button {
-  background-color: transparent;
-  border: 1px solid white;
-  padding: 15px 37px 15px 37px;
-  border-radius: 6px;
-  cursor: pointer;
-  color: white;
-}
-.scroll-bar-icon {
-  font-size: 40px;
-  color: white;
-  display: none;
-}
-/* ===NAVBAR ENDS HERE==== */
 
 /* ==HERO SECTION STARTS HERE== */
 .Hero-about-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.295)),
-    url("./images/header-hero-1.jpg");
+    url("/images/header-hero-1.jpg");
   height: 70vh;
   background-repeat: no-repeat;
   background-position: center;

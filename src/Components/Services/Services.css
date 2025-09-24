@@ -42,7 +42,7 @@
 /* ==HERO SECTION STARTS HERE== */
 .Hero-services {
   background-image: linear-gradient(rgba(0, 0, 0, 0.295)),
-    url("./images/ales-krivec-N-aTikX-b00-unsplash.jpg");
+    url("/images/ales-krivec-N-aTikX-b00-unsplash.jpg");
   height: 70vh;
   background-repeat: no-repeat;
   background-position: center;

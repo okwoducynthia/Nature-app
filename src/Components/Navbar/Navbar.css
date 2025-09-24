@@ -1,0 +1,142 @@
+/* ====NAVBAR SECTION==== */
+.navbar-section-div {
+  background-color: transparent;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.navlinks-div {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 55px;
+}
+.navlinks-div li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.navlinks-div li button {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 15px 37px 15px 37px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+}
+.scroll-bar-icon {
+  font-size: 25px;
+  color: white;
+  display: none;
+}
+/* ===NAVBAR ENDS HERE==== */
+
+/* =====MEDIA QUERY STARTS HERE======== */
+@media (max-width: 1224px) {
+  .images-section div img {
+    width: 90%;
+  }
+  .about-us-section div {
+    width: 35%;
+  }
+  .about-us-description h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 834px) {
+  .navlinks-div {
+    display: none;
+  }
+  .scroll-bar-icon {
+    display: block;
+  }
+  .images-section {
+    flex-direction: column;
+  }
+  .images-section div {
+    width: 60%;
+  }
+  .images-section div img {
+    width: 100%;
+  }
+  .heading-description {
+    margin-bottom: 50px;
+  }
+  .quote-section h2 {
+    font-size: 25px;
+    width: 80%;
+  }
+  .about-us-section {
+    height: 100%;
+  }
+  .about-us-section div {
+    width: 90%;
+    padding: 30px 0;
+  }
+  .about-us-image {
+    display: none;
+  }
+  .about-us-description h1 {
+    font-size: 30px;
+  }
+  .footer-section {
+    flex-direction: column;
+    height: 55vh;
+  }
+  .footer-section div {
+    width: 90%;
+  }
+  .navlink-footer {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    height: 500px;
+  }
+  .hero-section h3 {
+    font-size: 30px;
+  }
+  .hero-section h1 {
+    font-size: 40px;
+  }
+  .hero-section p {
+    width: 50%;
+  }
+  .heading-description {
+    width: 100%;
+  }
+  .images-section div {
+    width: 80%;
+  } 
+  .quote-section h2 {
+    font-size: 22px;
+    line-height: 35px;
+  }
+  .about-us-section div img {
+    display: none;
+  }
+  .about-us-description h1 {
+    font-size: 30px;
+  }
+  .question-section {
+    height: 50vh;
+  }
+  .question-div p {
+    max-width: 80%;
+  }
+  .footer-section {
+    height: 100%;
+  }
+}
